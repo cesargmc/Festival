@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cesargmc/Festival/issues"
   },
-  "homepage": "https://github.com/cesargmc/Festival#readme"
+  "homepage": "https://github.com/cesargmc/Festival#readme",
+  "devDependencies": {
+    "sass": "^1.76.0"
+  }
 }
