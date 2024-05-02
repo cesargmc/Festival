@@ -1,0 +1,24 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Proyecto de un festival de musica para practicar SASS, Gulp y NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesargmc/Festival.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "César García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesargmc/Festival/issues"
+  },
+  "homepage": "https://github.com/cesargmc/Festival#readme"
+}
