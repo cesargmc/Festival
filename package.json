@@ -5,8 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:dist/css",
-    "hola": "gulp hola"
+    "sass": "sass --watch src/scss:build/css",
+    "css": "gulp css"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/cesargmc/Festival#readme",
   "devDependencies": {
     "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.76.0"
   }
 }
