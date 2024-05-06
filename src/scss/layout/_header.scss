@@ -18,7 +18,15 @@
 }
 
 .navegacion-principal {
+    display: flex;
+    gap: 2rem;
+
     a {
         color: v.$blanco;
+        font-size: 2.4rem;
+
+        &:hover {
+            color: v.$amarillo;
+        }
     }
 }
