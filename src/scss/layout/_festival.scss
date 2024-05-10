@@ -7,7 +7,11 @@
     @include m.tablet {
         @include m.grid(2, 5rem);
         .imagen {
+            transition: transform .3s ease-in-out;
             margin: auto 0;
+            &:hover {
+                transform: scale(1.05);
+            }
         }
     }
 }
