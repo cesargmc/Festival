@@ -29,11 +29,19 @@ function mostarImagen(i) {
     const modal = document.createElement('DIV');
     modal.classList.add('modal');
     modal.onclick = cerrarModal;
+
+    // Boton
+    const cerrarBtn = document.createElement('BUTTON');
+    cerrarBtn.textContent = 'X';
+    cerrarBtn.classList.add('btn-cerrar');
+    cerrarBtn.onclick = cerrarModal;
+
     modal.appendChild(imagen);
+    modal.appendChild(cerrarBtn)
 
     // Agregar al HTML
     const body = document.querySelector('body');
-    body.classList.add('overflow-hidden')
+    body.classList.add('overflow-hidden');
     body.appendChild(modal);
 }
 
